@@ -1,7 +1,7 @@
 # Puppy-Love
 ### Puppy Love is a memory matchmaking game. Your goal is to match each puppy with its love but your arrows are limited so choose wisely!
 ### [>>------> Play here  <------<<](https://puppy-love.netlify.com)
-<img src="https://github.com/chadpjontek/resources/raw/master/images/kitty-cupid.png" title="Puppy Love Logo" alt="A cute cartoon puppy blushing with a heart shaped arrow.">
+<img src="https://github.com/chadpjontek/resources/raw/master/images/puppy-love.png" title="Puppy Love Logo" alt="A cute cartoon puppy blushing with a heart shaped arrow.">
 
 ---
 
