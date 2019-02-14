@@ -1,5 +1,5 @@
 // store static cache name in a variable for future app updates
-const staticCacheName = 'kittyCupid-v1';
+const staticCacheName = 'puppyLove-v1';
 
 // install the service worker and cache the files
 self.addEventListener('install', e => {
@@ -12,12 +12,12 @@ self.addEventListener('install', e => {
         '/index.bundle.js',
         '/vendors~game.bundle.js',
         '/arrow.png',
-        '/kitty-blush.png',
+        '/puppy-blush.png',
         '/brokenHeart.png',
         '/cupid.png',
-        '/kitty-cry.png',
-        '/kitty-happy.png',
-        '/kitty-normal.png',
+        '/puppy-cry.png',
+        '/puppy-happy.png',
+        '/puppy-normal.png',
         '/redHeart.png',
         '/whiteHeart.png',
         '/thought.png',
@@ -33,7 +33,7 @@ self.addEventListener('activate', event => {
     caches.keys().then(cachesNames => {
       return Promise.all(
         cachesNames.filter(cacheName => {
-          return cacheName.startsWith('kittyCupid-') && cacheName != staticCacheName;
+          return cacheName.startsWith('puppyLove-') && cacheName != staticCacheName;
         }).map(cacheName => {
           return caches.delete(cacheName);
         })

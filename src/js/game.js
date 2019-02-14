@@ -2,22 +2,22 @@ import Phaser from 'phaser';
 import cupidImg from '../images/cupid.png';
 import arrowImg from '../images/arrow.png';
 import bgImg from '../images/ts01.png';
-import kittyImg from '../images/kitty-normal.png';
-import cryImg from '../images/kitty-cry.png';
-import blushImg from '../images/kitty-blush.png';
-import happyImg from '../images/kitty-happy.png';
+import kittyImg from '../images/puppy-normal.png';
+import cryImg from '../images/puppy-cry.png';
+import blushImg from '../images/puppy-blush.png';
+import happyImg from '../images/puppy-happy.png';
 import brokenHeartImg from '../images/brokenHeart.png';
 import redHeartImg from '../images/redHeart.png';
 import whiteHeartImg from '../images/whiteHeart.png';
 import thoughtImg from '../images/thought.png';
 import arrowMp3 from '../audio/arrow.mp3';
 import clickMp3 from '../audio/click.mp3';
-import cryMp3 from '../audio/cry.mp3';
+import cryMp3 from '../audio/whimper.mp3';
 import gameOverMp3 from '../audio/gameOver.mp3';
 import levelUpMp3 from '../audio/levelUp.mp3';
-import meowMp3 from '../audio/meow.mp3';
+import meowMp3 from '../audio/bark.mp3';
 import pickUpMp3 from '../audio/pickUp.mp3';
-import purrMp3 from '../audio/purr.mp3';
+import purrMp3 from '../audio/panting.mp3';
 
 export default (deferredPrompt) => {
 

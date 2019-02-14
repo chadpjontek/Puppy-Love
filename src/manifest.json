@@ -1,6 +1,6 @@
 {
-  "name": "Kitty Cupid",
-  "short_name": "Kitty Cupid",
+  "name": "Puppy Love",
+  "short_name": "Puppy Love",
   "icons": [
     {
       "src": "\/icons/android-icon-36x36.png",
@@ -39,7 +39,7 @@
       "density": "4.0"
     },
     {
-      "src": "\/icons/kitty-cupid-512.png",
+      "src": "\/icons/puppy-love-512.png",
       "sizes": "512x512",
       "type": "image\/png"
     }

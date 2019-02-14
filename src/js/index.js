@@ -1,5 +1,5 @@
 import '../styles/game.css';
-import kittyImg from '../images/kitty-blush.png';
+import kittyImg from '../images/puppy-blush.png';
 import arrowImg from '../images/arrow.png';
 
 // Create and load just the homepage
@@ -13,10 +13,10 @@ function component() {
 
   kitty.src = kittyImg;
   arrow.src = arrowImg;
-  title.innerHTML = 'Kitty Cupid';
+  title.innerHTML = 'Puppy Love';
   titleInfo.innerHTML = 'How many matches can you make?';
   startButton.innerHTML = 'Start!';
-  kitty.alt = 'A cute cartoon kitty blushing';
+  kitty.alt = 'A cute cartoon puppy blushing';
   arrow.alt = 'Cupid\'s arrow';
   kitty.classList.add('kitty-img');
   arrow.classList.add('arrow-img');
