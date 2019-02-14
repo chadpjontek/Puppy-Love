@@ -573,8 +573,8 @@ export default (deferredPrompt) => {
     FB.ui({ // eslint-disable-line no-undef
       method: 'share',
       mobile_iframe: true,
-      href: 'https://fb.me/KittyCupid',
-      hashtag: '#kittycupid'
+      href: 'https://www.facebook.com/Puppy-Love-1295542360583536',
+      hashtag: '#puppylove'
     });
   }
 
